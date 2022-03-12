@@ -9,8 +9,8 @@ app.get('/', (request, response) => {
     response.send('<div>' +
         '<h1>Welcome !</h1>' +
         '<p>You can use our different links :</p>' +
-        '<p><a href="http://localhost:3001/coinmarketcap">/coinmarketcap</a> : this is an API from CoinMarketCap.com that returns a list of the top 100 cryptocurrencies </p>' +
-        '<p><a href="http://localhost:3001/cryptopanic">/cryptopanic</a> : this is an API from cryptopanic.com that returns a list of the latest crypto related news</p>' +
+        '<p><a href="/coinmarketcap">/coinmarketcap</a> : this is an API from CoinMarketCap.com that returns a list of the top 100 cryptocurrencies </p>' +
+        '<p><a href="/cryptopanic">/cryptopanic</a> : this is an API from cryptopanic.com that returns a list of the latest crypto related news</p>' +
     '</div>')
 })
 
